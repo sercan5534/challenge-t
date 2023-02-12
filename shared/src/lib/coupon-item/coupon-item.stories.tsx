@@ -21,5 +21,5 @@ Primary.args = {
     odd: "3.12",
     mbc: 2
   },
-  onRemove: () => { }
+  onRemove: () => { alert("remove"); }
 };

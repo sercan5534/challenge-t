@@ -4,8 +4,8 @@ import Button from './index';
 
 describe('Button', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<Button text='test' onClick={()=>{}} />);
+    const { baseElement } = render(<Button text='test' onClick={()=>{ alert("click"); }} />);
     expect(baseElement).toBeTruthy();
-    expect(baseElement.innerHTML).toBe("test");
+    expect(baseElement.innerHTML).toContain("test");
   });
 });

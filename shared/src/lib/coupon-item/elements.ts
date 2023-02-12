@@ -1,6 +1,6 @@
 import { fcsw, flexCenter } from './../../enums/mixins';
 import styled, { css } from "styled-components";
-import colors from 'shared/src/enums/colors';
+import colors from "./../../enums/colors";
 
 interface ICouponWrapper {
     added: boolean

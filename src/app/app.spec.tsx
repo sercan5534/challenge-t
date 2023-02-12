@@ -8,8 +8,8 @@ describe('App', () => {
     expect(baseElement).toBeTruthy();
   });
 
-  it('should have a greeting as the title', () => {
+  it('should have a switch theme button', () => {
     const { getByText } = render(<App />);
-    expect(getByText(/Welcome tuttur/gi)).toBeTruthy();
+    expect(getByText(/KOYU TEMA'YI KULLAN/gi)).toBeTruthy();
   });
 });

@@ -7,7 +7,7 @@ export function ThemeChanger({ onToggleTheme, theme }: ThemeChangerProps) {
   const newTheme = theme === "dark"? "light": "dark";
   return (
     <WRAPPER>
-      <Button size="small" text={`Switch to ${theme === "dark" ? " Light" : "Dark"} Theme`} onClick={() => onToggleTheme(newTheme)}></Button>
+      <Button size="small" text={`${theme === "dark" ? " ACIK" : "KOYU"} TEMA'YI KULLAN`} onClick={() => onToggleTheme(newTheme)}></Button>
     </WRAPPER>
   );
 }
